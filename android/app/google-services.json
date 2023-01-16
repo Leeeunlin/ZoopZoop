@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "105314225866",
+    "project_id": "zoopzoop-2",
+    "storage_bucket": "zoopzoop-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105314225866:android:3ed1fc0f56534dee3d2e33",
+        "android_client_info": {
+          "package_name": "com.psuh.zoopzoop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105314225866-1pfi0nnt1ea15nlequk31sc7073908g1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psuh.zoopzoop",
+            "certificate_hash": "e91719c1af34bcf6fe3562a42776ce4e7ceb534b"
+          }
+        },
+        {
+          "client_id": "105314225866-alhna5fb6cmviikpqql3grfeauq2ii3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMIXCp6fOsJhnYG8LF3sJ5DSMz1F8Vo_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105314225866-alhna5fb6cmviikpqql3grfeauq2ii3p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105314225866-ej8gd4kd5p6vk55mrmpbjh80srviivg1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.psuh.zoopzoop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
