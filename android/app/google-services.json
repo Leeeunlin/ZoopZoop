@@ -1,48 +1,40 @@
 {
   "project_info": {
-    "project_number": "105314225866",
-    "project_id": "zoopzoop-2",
-    "storage_bucket": "zoopzoop-2.appspot.com"
+    "project_number": "1031547381183",
+    "project_id": "zoopzoop-a7e81",
+    "storage_bucket": "zoopzoop-a7e81.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:105314225866:android:3ed1fc0f56534dee3d2e33",
+        "mobilesdk_app_id": "1:1031547381183:android:47c39cf475bdf001902d0a",
         "android_client_info": {
           "package_name": "com.psuh.zoopzoop"
         }
       },
       "oauth_client": [
         {
-          "client_id": "105314225866-1pfi0nnt1ea15nlequk31sc7073908g1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.psuh.zoopzoop",
-            "certificate_hash": "e91719c1af34bcf6fe3562a42776ce4e7ceb534b"
-          }
-        },
-        {
-          "client_id": "105314225866-alhna5fb6cmviikpqql3grfeauq2ii3p.apps.googleusercontent.com",
+          "client_id": "1031547381183-bcobkts69783osv5o9ino9m6nbf26j4a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMIXCp6fOsJhnYG8LF3sJ5DSMz1F8Vo_I"
+          "current_key": "AIzaSyBcLx51Y_Rwickm8Wod25BwvRNoCIY_eiU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "105314225866-alhna5fb6cmviikpqql3grfeauq2ii3p.apps.googleusercontent.com",
+              "client_id": "1031547381183-bcobkts69783osv5o9ino9m6nbf26j4a.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "105314225866-ej8gd4kd5p6vk55mrmpbjh80srviivg1.apps.googleusercontent.com",
+              "client_id": "1031547381183-je5qogbmv92in5gla0s2o7o9qn22vfoe.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.psuh.zoopzoop"
+                "bundle_id": "com.push.zoopzoop"
               }
             }
           ]

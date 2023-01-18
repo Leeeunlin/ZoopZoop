@@ -17,7 +17,10 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -46,32 +49,21 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD4e5bWSsx1zrywjXxAQ_x9othCZ5Mk9Ow',
-    appId: '1:105314225866:web:217cc40b726bac313d2e33',
-    messagingSenderId: '105314225866',
-    projectId: 'zoopzoop-2',
-    authDomain: 'zoopzoop-2.firebaseapp.com',
-    storageBucket: 'zoopzoop-2.appspot.com',
-    measurementId: 'G-RE7V04C7X8',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBMIXCp6fOsJhnYG8LF3sJ5DSMz1F8Vo_I',
-    appId: '1:105314225866:android:3ed1fc0f56534dee3d2e33',
-    messagingSenderId: '105314225866',
-    projectId: 'zoopzoop-2',
-    storageBucket: 'zoopzoop-2.appspot.com',
+    apiKey: 'AIzaSyBcLx51Y_Rwickm8Wod25BwvRNoCIY_eiU',
+    appId: '1:1031547381183:android:47c39cf475bdf001902d0a',
+    messagingSenderId: '1031547381183',
+    projectId: 'zoopzoop-a7e81',
+    storageBucket: 'zoopzoop-a7e81.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCVgc-8aAoy5NnT0F63bUF7lK2jCpVbP_s',
-    appId: '1:105314225866:ios:b939ed0020561df73d2e33',
-    messagingSenderId: '105314225866',
-    projectId: 'zoopzoop-2',
-    storageBucket: 'zoopzoop-2.appspot.com',
-    androidClientId: '105314225866-1pfi0nnt1ea15nlequk31sc7073908g1.apps.googleusercontent.com',
-    iosClientId: '105314225866-ej8gd4kd5p6vk55mrmpbjh80srviivg1.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCDM7DQqyKNLhoIImImT_BZoctBqLz-eHs',
+    appId: '1:1031547381183:ios:6f46371c66ee3884902d0a',
+    messagingSenderId: '1031547381183',
+    projectId: 'zoopzoop-a7e81',
+    storageBucket: 'zoopzoop-a7e81.appspot.com',
+    iosClientId: '1031547381183-jkkbp0p43i8qfrek2n9k18tonrvbk8h4.apps.googleusercontent.com',
     iosBundleId: 'com.psuh.zoopzoop',
   );
 }
